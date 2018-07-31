@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 #2017/4/22  
 
-$ref_genome=$ARGV[0];  # the second genome
+$ref_genome=$ARGV[0];  # the second genome  (Mo17/B73)
 $cds_seq=$ARGV[1];     # "gene-full-cds-double.new.fa"
 
 ################################################################################################################
