@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 #2017/4/18  
-$gff3=$ARGV[0];
-$refgenome=$ARGV[1];
+$gff3=$ARGV[0];       # gene annotation file of the first genome
+$refgenome=$ARGV[1];  # the first genome
 
 open(AA,$gff3);
 open(BB,">cds.loc");
