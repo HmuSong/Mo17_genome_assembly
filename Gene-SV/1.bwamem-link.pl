@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-#2017/4/20  yszhou
+#2017/4/20  
 
 $gene_structure=$ARGV[0];  #"gene.stucture.new";
 $ref_genome=$ARGV[1];      # the second genome
