@@ -2,7 +2,7 @@
 #2017/4/20  
 
 $gene_structure=$ARGV[0];  #"gene.stucture.new";
-$ref_genome=$ARGV[1];      # the second genome
+$ref_genome=$ARGV[1];      # the second genome  (Mo17/B73)
 $cds_seq=$ARGV[2]:         #"gene-full-cds-double.new.fa";
 $cds_loc=$ARGV[3];         #"cds.loc" 
 $script_dir=$ARGV[4];      
