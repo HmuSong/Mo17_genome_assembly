@@ -4,7 +4,7 @@
 $gene_structure=$ARGV[0];  #"gene.stucture.new";
 $ref_genome=$ARGV[1];      # the second genome
 $cds_seq=$ARGV[2]:         #"gene-full-cds-double.new.fa";
-$cds_loc=$ARGV[3];         
+$cds_loc=$ARGV[3];         #"cds.loc" 
 $script_dir=$ARGV[4];      
 
 `bwa mem -t 1  $ref_genome   gene.fa > aln.sam `;
