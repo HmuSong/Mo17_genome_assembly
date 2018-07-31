@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-#2017/4/18  
+#2017/4/18  yszhou
 $gff3=$ARGV[0];       # gene annotation file of the first genome
 $refgenome=$ARGV[1];  # the first genome
 
